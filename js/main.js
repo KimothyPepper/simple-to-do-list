@@ -9,5 +9,5 @@ $('#todo-list').on('submit', function (e){
 })
 
 $('ul').on('click', 'li', function (e) {
-  $(this).toggleClass ('is-clicked');
+  $(this).toggleClass ('li');
 })
